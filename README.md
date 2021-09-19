@@ -10,7 +10,7 @@ New features has been generated based on Date features. Details are given in nex
 ## Target & Feature information
 Below are the feature information and respective transformation used during modeling:
 
- + Target : Sales (Since sales variable is right skewed, **sqrt** transformation is performed for training purpose.)
+ + Target : Sales (Since sales variable is skewed, **sqrt** transformation is performed for training purpose.)
  + Features :
      
      1. Store_id : Indicator variable. Used as is in the model. In addition to Store_id, one additional feature is also created based on target encoding. This feature is created by taking average of sqrt(Sales) by each store_id. This feature is merged with train and test data based on Store_id. This features help us to understand size of each store.

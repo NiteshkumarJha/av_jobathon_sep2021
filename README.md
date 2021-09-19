@@ -41,7 +41,7 @@ At first, historical training dataset is devided into two parts : train and val.
 
 > **Random Forest** model is found as best performing model. This model is again retrained on whole training set with below parameters:
 
-**Target** : $\sqrt{Sales}$
+**Target** : $ \sqrt{Sales} $
 
 **Features** : Store_id, Holiday, Discount, Year, Month, Day, Week_of_year, Weekend, Month_Start, Month_End, Quarter_Start,
                Quarter_End, Year_Start, Year_End, Store_Type_S1, Store_Type_S2, Store_Type_S3, Store_Type_S4, Location_Type_L1,

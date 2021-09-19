@@ -15,9 +15,9 @@ Below are the feature information and respective transformation used during mode
      
      1. Store_id : Indicator variable. Used as is in the model. In addition to Store_id, one additional feature is also created based on target encoding. This feature is created by taking average of sqrt(Sales) by each store_id. This feature is merged with train and test data based on Store_id. This features help us to understand size of each store.
      2. Discount : Binary feature. Recoded into 1 and 0.
-     3. Store_Type : Categorical feature. Performed Dummy Encoding(One-hot) Encoding.
-     4. Location_Type : Categorical feature. Performed Dummy Encoding(One-hot) Encoding.
-     5. Region_Code : Categorical feature. Performed Dummy Encoding(One-hot) Encoding.
+     3. Store_Type : Categorical feature. Performed Dummy Encoding(One-hot Encoding).
+     4. Location_Type : Categorical feature. Performed Dummy Encoding(One-hot Encoding).
+     5. Region_Code : Categorical feature. Performed Dummy Encoding(One-hot Encoding).
      6. Holiday : Binary feature. Recoded into 1 and 0.
      7. Date : Date indicator. Based on this, new features has been created to understand time related pattern. These are Year, Month, Day, Week_of_year, Day_of_week, Weekend, Month_Start, Month_End, Quarter_Start, Quarter_End, Year_Start, Year_End. This date features are used as is in the model except Day_of_week feature. It is converted using One-hot encoding. 
 

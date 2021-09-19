@@ -39,7 +39,7 @@ At first, historical training dataset is devided into two parts : train and val.
  2. XGBoost model
  3. Prophet model by individual stores.
 
-> **Random Forest** model is found to best performing model. This model is again retrained on whole training set with below parameters:
+> **Random Forest** model is found as best performing model. This model is again retrained on whole training set with below parameters:
 
 **Target** : $\sqrt{Sales}$
 
